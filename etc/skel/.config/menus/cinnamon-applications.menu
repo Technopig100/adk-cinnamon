@@ -22,24 +22,24 @@
 	<Menu>
 		<Name>Internet</Name>
 		<Exclude>
-			<Filename>lftp.desktop</Filename>
+			<Filename>bssh.desktop</Filename>
 		</Exclude>
 		<AppDir>/home/$USER/.local/share/applications</AppDir>
 		<Exclude>
 			<Filename>bvnc.desktop</Filename>
 		</Exclude>
 		<Exclude>
-			<Filename>bssh.desktop</Filename>
+			<Filename>lftp.desktop</Filename>
 		</Exclude>
 	</Menu>
 	<Menu>
 		<Name>Multimedia</Name>
 		<Exclude>
-			<Filename>qvidcap.desktop</Filename>
+			<Filename>qv4l2.desktop</Filename>
 		</Exclude>
 		<AppDir>/home/$USER/.local/share/applications</AppDir>
 		<Exclude>
-			<Filename>qv4l2.desktop</Filename>
+			<Filename>qvidcap.desktop</Filename>
 		</Exclude>
 		<Exclude>
 			<Filename>pavucontrol.desktop</Filename>
@@ -55,10 +55,10 @@
 			<Filename>lstopo.desktop</Filename>
 		</Exclude>
 		<Exclude>
-			<Filename>system-config-printer.desktop</Filename>
+			<Filename>cups.desktop</Filename>
 		</Exclude>
 		<Exclude>
-			<Filename>cups.desktop</Filename>
+			<Filename>system-config-printer.desktop</Filename>
 		</Exclude>
 		<Exclude>
 			<Filename>cinnamon-settings-users.desktop</Filename>
