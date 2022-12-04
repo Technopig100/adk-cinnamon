@@ -3,7 +3,7 @@
         "type": "switch",
         "default": false,
         "description": "Display user name on panel",
-        "value": true
+        "value": false
     },
     "__md5__": "73115574c1e6fb20d210240500720f13"
 }

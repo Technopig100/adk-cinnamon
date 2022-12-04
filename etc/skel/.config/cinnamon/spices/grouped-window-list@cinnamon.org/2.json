@@ -191,7 +191,7 @@
             "Fade": 2,
             "Scale": 3
         },
-        "value": 2
+        "value": 3
     },
     "cycleMenusHotkey": {
         "type": "keybinding",
@@ -243,7 +243,7 @@
             "Large": 9,
             "Largest": 12
         },
-        "value": 9
+        "value": 6
     },
     "thumbnail-scroll-behavior": {
         "type": "checkbox",
