@@ -1,0 +1,69 @@
+discover_other_daemon: 1discover_other_daemon: 1discover_other_daemon: 1[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+mutter-Message: 23:56:48.894: Enabling experimental feature 'x11-randr-fractional-scaling'
+Gjs-Message: 23:56:49.066: JS LOG: About to start Cinnamon
+Gjs-Message: 23:56:49.077: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 9 ms
+Gjs-Message: 23:56:49.078: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Aritim-Dark/cinnamon/cinnamon.css
+Gjs-Message: 23:56:49.086: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Aritim-Dark/cinnamon
+
+(cinnamon:5363): Gjs-WARNING **: 23:56:49.093: Some code accessed the property 'UiActor' on the module 'layout'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Gjs-Message: 23:56:49.134: JS LOG: [LookingGlass/info] loaded at Sat Dec 03 2022 23:56:49 GMT+0000 (Coordinated Universal Time)
+Gjs-Message: 23:56:49.134: JS LOG: Cinnamon started at Sat Dec 03 2022 23:56:49 GMT+0000 (Coordinated Universal Time)
+Gjs-Message: 23:56:49.134: JS LOG: GPU offload supported: false
+Gjs-Message: 23:56:49.138: JS LOG: [LookingGlass/info] ExtensionSystem started in 0 ms
+Gjs-Message: 23:56:49.138: JS LOG: [LookingGlass/info] DeskletManager started in 0 ms
+Gjs-Message: 23:56:49.139: JS LOG: [LookingGlass/info] SearchProviderManager started in 1 ms
+Gjs-Message: 23:56:49.185: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 28 ms
+Gjs-Message: 23:56:49.190: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 5 ms
+Gjs-Message: 23:56:49.195: JS LOG: [LookingGlass/info] Loaded applet show-desktop@cinnamon.org in 5 ms
+Gjs-Message: 23:56:49.196: JS LOG: [LookingGlass/info] Role locked: tray
+Gjs-Message: 23:56:49.198: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 3 ms
+vmware-user: could not open /proc/fs/vmblock/dev
+Gjs-Message: 23:56:49.269: JS LOG: [LookingGlass/info] Loaded applet user@cinnamon.org in 71 ms
+Gjs-Message: 23:56:49.276: JS LOG: [LookingGlass/info] Role locked: notifications
+Gjs-Message: 23:56:49.299: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 30 ms
+Gjs-Message: 23:56:49.315: JS LOG: [LookingGlass/info] Loaded applet cornerbar@cinnamon.org in 16 ms
+
+** (nemo-desktop:5416): WARNING **: 23:56:49.352: Current gtk theme is not known to have nemo support (Aritim-Dark) - checking...
+Gjs-Message: 23:56:49.360: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 45 ms
+Gjs-Message: 23:56:49.373: JS LOG: [LookingGlass/info] Loaded applet workspace-switcher@cinnamon.org in 13 ms
+Gjs-Message: 23:56:49.421: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 48 ms
+Gjs-Message: 23:56:49.477: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 56 ms
+Gjs-Message: 23:56:49.484: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 7 ms
+Gjs-Message: 23:56:49.499: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 15 ms
+Gjs-Message: 23:56:49.534: JS LOG: [LookingGlass/info] Role locked: panellauncher
+Gjs-Message: 23:56:49.534: JS LOG: [LookingGlass/info] Role locked: windowattentionhandler
+** Message: 23:56:49.540: nemo-desktop: session is cinnamon, establishing proxy
+Gjs-Message: 23:56:49.541: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 42 ms
+
+** (csd-power:5291): CRITICAL **: 23:56:49.552: abs_to_percentage: assertion 'max > min' failed
+Gjs-Message: 23:56:49.566: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 25 ms
+Gjs-Message: 23:56:49.580: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 14 ms
+Gjs-Message: 23:56:49.611: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 31 ms
+Gjs-Message: 23:56:49.612: JS LOG: [LookingGlass/info] AppletManager started in 477 ms
+Gjs-Message: 23:56:49.614: JS LOG: [LookingGlass/info] Cinnamon took 548 ms to start
+Gjs-Message: 23:56:49.624: JS LOG: Unknown network device type, is 14
+Gjs-Message: 23:56:49.644: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 23:56:49.645: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (16x16px)
+cinnamon-session[5244]: WARNING: t+1.16752s: Detected that screensaver has appeared on the bus
+
+(pamac-tray:5429): Gdk-CRITICAL **: 23:56:50.661: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+Gjs-Message: 23:56:53.170: JS LOG: Enabling WindowAttentionHandler
+cinnamon-session[5244]: WARNING: t+31.17145s: Detected that screensaver has left the bus
+** Message: 23:57:20.190: updates_checker.vala:71: check updates
+** Message: 23:57:21.657: updates_checker.vala:101: 0 updates found
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x40000f9
+
+** (nemo:6125): WARNING **: 23:58:52.561: Current gtk theme is not known to have nemo support (Aritim-Dark) - checking...
+
+(nemo:6125): Gtk-CRITICAL **: 23:59:52.218: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (nemo:6168): WARNING **: 23:59:56.235: Current gtk theme is not known to have nemo support (Aritim-Dark) - checking...
+
+** (nemo:6204): WARNING **: 00:00:06.480: Current gtk theme is not known to have nemo support (Aritim-Dark) - checking...
+Window manager warning: WM_TRANSIENT_FOR window 0x3000361 for 0x30003d3 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x3000064.
+
+(nemo:6204): GLib-CRITICAL **: 00:00:11.892: g_hash_table_foreach: assertion 'version == hash_table->version' failed
+
+(nemo-desktop:5416): GLib-CRITICAL **: 00:00:11.893: g_hash_table_foreach: assertion 'version == hash_table->version' failed
+
+** (nemo:6241): WARNING **: 00:04:20.590: Current gtk theme is not known to have nemo support (Aritim-Dark) - checking...

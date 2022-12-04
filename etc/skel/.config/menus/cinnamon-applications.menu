@@ -62,6 +62,10 @@
 		<Exclude>
 			<Filename>qv4l2.desktop</Filename>
 		</Exclude>
+		<AppDir>/home/$USER/.local/share/applications</AppDir>
+		<Include>
+			<Filename>pavucontrol.desktop</Filename>
+		</Include>
 	</Menu>
 	<Menu>
 		<Name>Administration</Name>
@@ -191,10 +195,17 @@
 			<Filename>cinnamon-settings-workspaces.desktop</Filename>
 		</Exclude>
 		<Include>
-			<Filename>cinnamon-settings-general.desktop</Filename>
-		</Include>
-		<Include>
 			<Filename>cinnamon-settings.desktop</Filename>
 		</Include>
+		<Exclude>
+			<Filename>pavucontrol.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/$USER/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>cinnamon-settings-general.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>gufw.desktop</Filename>
+		</Exclude>
 	</Menu>
 </Menu>
