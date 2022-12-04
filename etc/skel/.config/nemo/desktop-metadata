@@ -1,16 +1,4 @@
 [desktop-monitor-0]
 nemo-icon-view-keep-aligned=true
 nemo-icon-view-auto-layout=true
-nemo-icon-view-layout-timestamp=1670125676
-
-[adk-cinnamon.volume]
-nemo-icon-position=61,238
-monitor=0
-icon-scale=1
-nemo-icon-position-timestamp=1670116147
-
-[sf_Public.volume]
-nemo-icon-position=61,338
-monitor=0
-icon-scale=1
-nemo-icon-position-timestamp=1670116147
+nemo-icon-view-layout-timestamp=1670160614

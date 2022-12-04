@@ -89,7 +89,7 @@
         "tooltip": "Select an icon to show in the panel.",
         "default_icon": "cinnamon-symbolic",
         "dependency": "menu-custom",
-        "value": "/etc/xdg/adk-linux/distributor-logo-adklinux(White).svg"
+        "value": "/etc/xdg/adk-linux/distributor-logo-adklinux.scale(White).png"
     },
     "menu-icon-size": {
         "type": "spinbutton",
@@ -100,7 +100,7 @@
         "units": "px",
         "description": "Icon size",
         "dependency": "menu-custom",
-        "value": 39.0
+        "value": 41.0
     },
     "menu-label": {
         "type": "entry",
@@ -144,7 +144,7 @@
         "units": "px",
         "description": "Categories icon size",
         "dependency": "show-category-icons",
-        "value": 22
+        "value": 25.0
     },
     "show-application-icons": {
         "type": "switch",
@@ -162,7 +162,7 @@
         "units": "px",
         "description": "Applications icon size",
         "dependency": "show-application-icons",
-        "value": 22
+        "value": 20.0
     },
     "favbox-show": {
         "type": "switch",
@@ -180,7 +180,7 @@
         "units": "px",
         "description": "Favorites icon size",
         "dependency": "favbox-show",
-        "value": 32
+        "value": 30.0
     },
     "show-favorites": {
         "type": "switch",
@@ -194,14 +194,14 @@
         "default": true,
         "description": "Show bookmarks and places",
         "tooltip": "Choose whether or not to show bookmarks and places in the menu.",
-        "value": true
+        "value": false
     },
     "show-recents": {
         "type": "switch",
         "default": true,
         "description": "Show recents",
         "tooltip": "Choose whether or not to show recents in the menu.",
-        "value": true
+        "value": false
     },
     "category-hover": {
         "type": "switch",
@@ -255,7 +255,7 @@
         "default": false,
         "description": "Use menu animations",
         "tooltip": "Allow the menu to animate on open and close",
-        "value": false
+        "value": true
     },
     "menu-editor-button": {
         "type": "button",

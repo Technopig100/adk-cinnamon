@@ -1,73 +1,397 @@
 discover_other_daemon: 1discover_other_daemon: 1discover_other_daemon: 1[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
-[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
-mutter-Message: 22:47:54.012: Enabling experimental feature 'x11-randr-fractional-scaling'
-Gjs-Message: 22:47:54.209: JS LOG: About to start Cinnamon
-Gjs-Message: 22:47:54.261: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 51 ms
-Gjs-Message: 22:47:54.263: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Aritim-Dark/cinnamon/cinnamon.css
-Gjs-Message: 22:47:54.272: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Aritim-Dark/cinnamon
+mutter-Message: 08:30:12.256: Enabling experimental feature 'x11-randr-fractional-scaling'
+Gjs-Message: 08:30:12.400: JS LOG: About to start Cinnamon
+Gjs-Message: 08:30:12.415: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 14 ms
+Gjs-Message: 08:30:12.417: JS LOG: [LookingGlass/info] loading default theme
 
-(cinnamon:784): Gjs-WARNING **: 22:47:54.358: Some code accessed the property 'UiActor' on the module 'layout'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
-Gjs-Message: 22:47:54.431: JS LOG: [LookingGlass/info] loaded at Sat Dec 03 2022 22:47:54 GMT-0500 (Eastern Standard Time)
-Gjs-Message: 22:47:54.431: JS LOG: Cinnamon started at Sat Dec 03 2022 22:47:54 GMT-0500 (Eastern Standard Time)
-Gjs-Message: 22:47:54.431: JS LOG: GPU offload supported: false
-Gjs-Message: 22:47:54.438: JS LOG: [LookingGlass/info] ExtensionSystem started in 1 ms
-Gjs-Message: 22:47:54.438: JS LOG: [LookingGlass/info] DeskletManager started in 1 ms
-Gjs-Message: 22:47:54.438: JS LOG: [LookingGlass/info] SearchProviderManager started in 1 ms
-Gjs-Message: 22:47:54.476: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 21 ms
+(cinnamon:1809): Gjs-WARNING **: 08:30:12.432: Some code accessed the property 'UiActor' on the module 'layout'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Gjs-Message: 08:30:12.475: JS LOG: [LookingGlass/info] loaded at Sun Dec 04 2022 08:30:12 GMT-0500 (Eastern Standard Time)
+Gjs-Message: 08:30:12.475: JS LOG: Cinnamon started at Sun Dec 04 2022 08:30:12 GMT-0500 (Eastern Standard Time)
+Gjs-Message: 08:30:12.475: JS LOG: GPU offload supported: false
+Gjs-Message: 08:30:12.478: JS LOG: [LookingGlass/info] ExtensionSystem started in 0 ms
+Gjs-Message: 08:30:12.478: JS LOG: [LookingGlass/info] DeskletManager started in 0 ms
+Gjs-Message: 08:30:12.478: JS LOG: [LookingGlass/info] SearchProviderManager started in 0 ms
+Gjs-Message: 08:30:12.507: JS LOG: [LookingGlass/info] Loaded applet separator@cinnamon.org in 13 ms
+Gjs-Message: 08:30:12.510: JS LOG: [LookingGlass/info] Installing settings for favorites@cinnamon.org
+Gjs-Message: 08:30:12.510: JS LOG: [LookingGlass/info] Settings successfully installed for favorites@cinnamon.org
+Gjs-Message: 08:30:12.512: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 5 ms
+Gjs-Message: 08:30:12.522: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 10 ms
+Gjs-Message: 08:30:12.525: JS LOG: [LookingGlass/info] Role locked: tray
+Gjs-Message: 08:30:12.526: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 4 ms
+Gjs-Message: 08:30:12.528: JS LOG: [LookingGlass/info] Installing settings for cornerbar@cinnamon.org
+Gjs-Message: 08:30:12.528: JS LOG: [LookingGlass/info] Settings successfully installed for cornerbar@cinnamon.org
+Gjs-Message: 08:30:12.531: JS LOG: [LookingGlass/info] Loaded applet cornerbar@cinnamon.org in 5 ms
+Gjs-Message: 08:30:12.538: JS LOG: [LookingGlass/info] Installing settings for printers@cinnamon.org
+Gjs-Message: 08:30:12.538: JS LOG: [LookingGlass/info] Settings successfully installed for printers@cinnamon.org
 vmware-user: could not open /proc/fs/vmblock/dev
-Gjs-Message: 22:47:54.628: JS LOG: [LookingGlass/info] Loaded applet user@cinnamon.org in 150 ms
-Gjs-Message: 22:47:54.631: JS LOG: [LookingGlass/info] Role locked: tray
-Gjs-Message: 22:47:54.649: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 21 ms
-Gjs-Message: 22:47:54.673: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 24 ms
-Gjs-Message: 22:47:54.736: JS LOG: [LookingGlass/info] Loaded applet show-desktop@cinnamon.org in 63 ms
-Gjs-Message: 22:47:54.747: JS LOG: [LookingGlass/info] Loaded applet cornerbar@cinnamon.org in 11 ms
-Gjs-Message: 22:47:54.757: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 10 ms
+Gjs-Message: 08:30:12.568: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 37 ms
+Gjs-Message: 08:30:12.570: JS LOG: [LookingGlass/info] Installing settings for notifications@cinnamon.org
+Gjs-Message: 08:30:12.570: JS LOG: [LookingGlass/info] Settings successfully installed for notifications@cinnamon.org
+Gjs-Message: 08:30:12.572: JS LOG: [LookingGlass/info] Role locked: notifications
+Gjs-Message: 08:30:12.589: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 21 ms
+Gjs-Message: 08:30:12.592: JS LOG: [LookingGlass/info] Installing settings for calendar@cinnamon.org
+Gjs-Message: 08:30:12.592: JS LOG: [LookingGlass/info] Settings successfully installed for calendar@cinnamon.org
 
-** (nemo-desktop:847): WARNING **: 22:47:54.791: Current gtk theme is not known to have nemo support (Aritim-Dark) - checking...
-Gjs-Message: 22:47:54.794: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 37 ms
-Gjs-Message: 22:47:54.799: JS LOG: [LookingGlass/info] Loaded applet workspace-switcher@cinnamon.org in 5 ms
-Gjs-Message: 22:47:54.821: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 21 ms
-Gjs-Message: 22:47:54.833: JS LOG: [LookingGlass/info] Role locked: panellauncher
-Gjs-Message: 22:47:54.833: JS LOG: [LookingGlass/info] Role locked: windowattentionhandler
-Gjs-Message: 22:47:54.837: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 15 ms
-Gjs-Message: 22:47:54.847: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 10 ms
-Gjs-Message: 22:47:54.851: JS LOG: [LookingGlass/info] Role locked: notifications
-Gjs-Message: 22:47:54.857: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 10 ms
-Gjs-Message: 22:47:54.882: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 25 ms
-** Message: 22:47:54.903: nemo-desktop: session is cinnamon, establishing proxy
-Gjs-Message: 22:47:54.912: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 30 ms
-Gjs-Message: 22:47:54.927: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 15 ms
+** (nemo-desktop:1863): WARNING **: 08:30:12.614: Current gtk theme is not known to have nemo support (Adwaita) - checking...
+Gjs-Message: 08:30:12.655: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 66 ms
+Gjs-Message: 08:30:12.679: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 24 ms
 
-** (csd-power:645): CRITICAL **: 22:47:54.933: abs_to_percentage: assertion 'max > min' failed
-Gjs-Message: 22:47:54.971: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 44 ms
-cinnamon-session[596]: WARNING: t+1.94199s: Detected that screensaver has appeared on the bus
-Gjs-Message: 22:47:54.973: JS LOG: [LookingGlass/info] AppletManager started in 541 ms
-Gjs-Message: 22:47:54.975: JS LOG: [LookingGlass/info] Cinnamon took 766 ms to start
-Gjs-Message: 22:47:54.985: JS LOG: Unknown network device type, is 14
-Gjs-Message: 22:47:54.992: JS LOG: [LookingGlass/info] Hiding systray: network
-Gjs-Message: 22:47:55.006: JS LOG: calendar@cinnamon.org: Calendar events supported.
-Gjs-Message: 22:47:55.012: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (16x16px)
+** (nemo-desktop:1863): WARNING **: 08:30:12.695: The theme appears to have no nemo support.  Adding some...
+** Message: 08:30:12.701: nemo-desktop: session is cinnamon, establishing proxy
+Gjs-Message: 08:30:12.711: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 32 ms
+Gjs-Message: 08:30:12.719: JS LOG: [LookingGlass/info] Installing settings for power@cinnamon.org
+Gjs-Message: 08:30:12.719: JS LOG: [LookingGlass/info] Settings successfully installed for power@cinnamon.org
+Gjs-Message: 08:30:12.746: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 34 ms
+Gjs-Message: 08:30:12.747: JS LOG: calendar@cinnamon.org: Calendar events supported.
+Gjs-Message: 08:30:12.764: JS LOG: [LookingGlass/info] Installing settings for grouped-window-list@cinnamon.org
+Gjs-Message: 08:30:12.764: JS LOG: [LookingGlass/info] Settings successfully installed for grouped-window-list@cinnamon.org
+Gjs-Message: 08:30:12.774: JS LOG: [LookingGlass/info] Role locked: panellauncher
+Gjs-Message: 08:30:12.774: JS LOG: [LookingGlass/info] Role locked: windowattentionhandler
+Gjs-Message: 08:30:12.777: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 31 ms
+blueman-applet 08.30.12 WARNING  PluginManager:151 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 08.30.12 WARNING  PluginManager:151 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+Gjs-Message: 08:30:12.796: JS LOG: [LookingGlass/info] Installing settings for sound@cinnamon.org
+Gjs-Message: 08:30:12.796: JS LOG: [LookingGlass/info] Settings successfully installed for sound@cinnamon.org
 
-(pamac-tray:854): Gdk-CRITICAL **: 22:47:56.036: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
-Gjs-Message: 22:47:58.664: JS LOG: Enabling WindowAttentionHandler
+** (csd-power:1744): CRITICAL **: 08:30:12.800: abs_to_percentage: assertion 'max > min' failed
+Gjs-Message: 08:30:12.811: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 34 ms
+Gjs-Message: 08:30:12.832: JS LOG: [LookingGlass/info] Installing settings for network@cinnamon.org
+Gjs-Message: 08:30:12.832: JS LOG: [LookingGlass/info] Settings successfully installed for network@cinnamon.org
+Gjs-Message: 08:30:12.835: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 23 ms
+cinnamon-session[1692]: WARNING: t+0.92244s: Detected that screensaver has appeared on the bus
+Gjs-Message: 08:30:12.860: JS LOG: Unknown network device type, is 14
+Gjs-Message: 08:30:12.868: JS LOG: [LookingGlass/info] Installing settings for menu@cinnamon.org
+Gjs-Message: 08:30:12.868: JS LOG: [LookingGlass/info] Settings successfully installed for menu@cinnamon.org
+blueman-applet 08.30.12 WARNING  TransferService:213 _make_share_path: Failed to get Download dir from XDG
+Gjs-Message: 08:30:12.921: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 85 ms
+Gjs-Message: 08:30:12.922: JS LOG: [LookingGlass/info] AppletManager started in 447 ms
+Gjs-Message: 08:30:12.924: JS LOG: [LookingGlass/info] Cinnamon took 524 ms to start
+Gjs-Message: 08:30:12.936: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:30:12.937: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (16x16px)
 
-** (nemo:1180): WARNING **: 22:48:02.287: Current gtk theme is not known to have nemo support (Aritim-Dark) - checking...
-cinnamon-session[596]: WARNING: t+11.63802s: Could not launch application 'com.nextcloud.desktopclient.nextcloud.desktop': Unable to start application: Failed to execute child process “/usr/bin/nextcloud” (No such file or directory)
-** Message: 22:48:24.667: updates_checker.vala:71: check updates
-cinnamon-session[596]: WARNING: t+31.94705s: Detected that screensaver has left the bus
-** Message: 22:48:26.298: updates_checker.vala:101: 0 updates found
-Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3800003
-** Message: 22:49:49.040: updates_checker.vala:71: check updates
-** Message: 22:49:50.496: updates_checker.vala:101: 0 updates found
-** Message: 22:49:55.044: updates_checker.vala:71: check updates
-** Message: 22:49:56.503: updates_checker.vala:101: 0 updates found
-Gjs-Message: 22:50:23.196: JS LOG: [LookingGlass/info] Adding systray: xfce4-clipman (1x1px)
-** Message: 22:50:33.925: Primary instance org.xfce.clipman already running
+(pamac-tray:1874): Gdk-CRITICAL **: 08:30:13.963: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+Gjs-Message: 08:30:17.046: JS LOG: Enabling WindowAttentionHandler
+blueman-applet 08.30.37 WARNING  DiscvManager:119 update_menuitems: warning: Adapter is None
+cinnamon-session[1692]: WARNING: t+31.00048s: Detected that screensaver has left the bus
+** Message: 08:30:43.051: updates_checker.vala:71: check updates
+** Message: 08:30:44.475: updates_checker.vala:101: 0 updates found
+Gjs-Message: 08:31:11.162: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Aritim-Dark/cinnamon/cinnamon.css
+Gjs-Message: 08:31:11.179: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Aritim-Dark/cinnamon
 
-(xfce4-clipman:1534): GLib-GIO-WARNING **: 22:50:36.153: Your application did not unregister from D-Bus before destruction. Consider using g_application_run().
+(nemo-desktop:1863): GLib-CRITICAL **: 08:31:39.289: g_hash_table_foreach: assertion 'version == hash_table->version' failed
+/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:442: DeprecationWarning: Gtk.Window.set_wmclass is deprecated
+  self.window.set_wmclass(wm_class, wm_class)
+Window manager warning: WM_TRANSIENT_FOR window 0x320039e for 0x32004b6 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x3200064.
+Window manager warning: WM_TRANSIENT_FOR window 0x320039e for 0x3200504 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x3200064.
+Window manager warning: WM_TRANSIENT_FOR window 0x320039e for 0x32004b6 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x3200064.
+Gjs-Message: 08:39:45.173: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:39:45.173: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:39:49.823: JS LOG: [LookingGlass/info] Reloading applet: calendar@cinnamon.org/13
+Gjs-Message: 08:39:49.849: JS LOG: calendar@cinnamon.org: Calendar events supported.
+Gjs-Message: 08:40:00.771: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:40:00.771: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:40:03.075: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:40:03.075: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.664: JS LOG: [LookingGlass/info] Reloading applet: systray@cinnamon.org/3
+Gjs-Message: 08:41:27.665: JS LOG: [LookingGlass/info] Reloading applet: xapp-status@cinnamon.org/4
+Gjs-Message: 08:41:27.666: JS LOG: [LookingGlass/info] Reloading applet: notifications@cinnamon.org/5
+Gjs-Message: 08:41:27.666: JS LOG: [LookingGlass/info] Reloading applet: printers@cinnamon.org/6
+Gjs-Message: 08:41:27.667: JS LOG: [LookingGlass/info] Reloading applet: removable-drives@cinnamon.org/7
+Gjs-Message: 08:41:27.668: JS LOG: [LookingGlass/info] Reloading applet: keyboard@cinnamon.org/8
+Gjs-Message: 08:41:27.668: JS LOG: [LookingGlass/info] Reloading applet: favorites@cinnamon.org/9
+Gjs-Message: 08:41:27.669: JS LOG: [LookingGlass/info] Reloading applet: network@cinnamon.org/10
+Gjs-Message: 08:41:27.669: JS LOG: [LookingGlass/info] Reloading applet: sound@cinnamon.org/11
+Gjs-Message: 08:41:27.670: JS LOG: [LookingGlass/info] Reloading applet: power@cinnamon.org/12
+Gjs-Message: 08:41:27.670: JS LOG: [LookingGlass/info] Reloading applet: cornerbar@cinnamon.org/14
+Gjs-Message: 08:41:27.675: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.675: JS LOG: [LookingGlass/info] Adding systray: network (16x16px)
+Gjs-Message: 08:41:27.702: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.703: JS LOG: [LookingGlass/info] Adding systray: network (16x16px)
+Gjs-Message: 08:41:27.711: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.711: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.712: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.712: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.716: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.717: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.717: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.717: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.717: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.718: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.718: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.718: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.719: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.719: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.719: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.719: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.720: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.720: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.721: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.721: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.721: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.721: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.722: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.722: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.722: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.722: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.723: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.723: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.723: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.724: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.724: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.724: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.724: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.725: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.725: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.725: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.726: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.726: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.726: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.726: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.727: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.727: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.740: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.740: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:27.740: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:27.740: JS LOG: [LookingGlass/info] Hiding systray: network
 
-** (nemo:1549): WARNING **: 22:50:40.132: Current gtk theme is not known to have nemo support (Aritim-Dark) - checking...
+** (csd-power:1744): CRITICAL **: 08:41:27.765: abs_to_percentage: assertion 'max > min' failed
+Gjs-Message: 08:41:27.802: JS LOG: Unknown network device type, is 14
+Gjs-Message: 08:41:27.810: JS LOG: [LookingGlass/info] Installing settings for show-desktop@cinnamon.org
+Gjs-Message: 08:41:27.810: JS LOG: [LookingGlass/info] Settings successfully installed for show-desktop@cinnamon.org
+Gjs-Message: 08:41:27.813: JS LOG: [LookingGlass/info] Loaded applet show-desktop@cinnamon.org in 52 ms
+Gjs-Message: 08:41:34.889: JS LOG: [LookingGlass/info] Reloading applet: show-desktop@cinnamon.org/15
+Gjs-Message: 08:41:53.413: JS LOG: [LookingGlass/info] Reloading applet: systray@cinnamon.org/3
+Gjs-Message: 08:41:53.413: JS LOG: [LookingGlass/info] Reloading applet: xapp-status@cinnamon.org/4
+Gjs-Message: 08:41:53.415: JS LOG: [LookingGlass/info] Reloading applet: notifications@cinnamon.org/5
+Gjs-Message: 08:41:53.416: JS LOG: [LookingGlass/info] Reloading applet: printers@cinnamon.org/6
+Gjs-Message: 08:41:53.416: JS LOG: [LookingGlass/info] Reloading applet: removable-drives@cinnamon.org/7
+Gjs-Message: 08:41:53.416: JS LOG: [LookingGlass/info] Reloading applet: keyboard@cinnamon.org/8
+Gjs-Message: 08:41:53.417: JS LOG: [LookingGlass/info] Reloading applet: favorites@cinnamon.org/9
+Gjs-Message: 08:41:53.417: JS LOG: [LookingGlass/info] Reloading applet: network@cinnamon.org/10
+Gjs-Message: 08:41:53.417: JS LOG: [LookingGlass/info] Reloading applet: sound@cinnamon.org/11
+Gjs-Message: 08:41:53.418: JS LOG: [LookingGlass/info] Reloading applet: power@cinnamon.org/12
+Gjs-Message: 08:41:53.418: JS LOG: [LookingGlass/info] Reloading applet: cornerbar@cinnamon.org/14
+Gjs-Message: 08:41:53.418: JS LOG: [LookingGlass/info] Reloading applet: show-desktop@cinnamon.org/15
+Gjs-Message: 08:41:53.422: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.422: JS LOG: [LookingGlass/info] Adding systray: network (16x16px)
+Gjs-Message: 08:41:53.451: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.452: JS LOG: [LookingGlass/info] Adding systray: network (16x16px)
+Gjs-Message: 08:41:53.464: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.465: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.465: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.466: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.472: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.472: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.472: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.473: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.473: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.474: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.474: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.474: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.475: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.475: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.475: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.476: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.476: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.477: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.477: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.477: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.478: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.478: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.478: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.479: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.479: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.479: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.480: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.480: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.480: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.481: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.481: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.482: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.482: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.482: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.483: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.483: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.483: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.484: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.484: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.485: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.485: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.485: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.499: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.499: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:53.499: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:53.500: JS LOG: [LookingGlass/info] Hiding systray: network
 
-** (nemo:1620): WARNING **: 22:51:31.686: Current gtk theme is not known to have nemo support (Aritim-Dark) - checking...
+** (csd-power:1744): CRITICAL **: 08:41:53.529: abs_to_percentage: assertion 'max > min' failed
+Gjs-Message: 08:41:53.531: JS LOG: Unknown network device type, is 14
+Gjs-Message: 08:41:53.559: JS LOG: [LookingGlass/info] Installing settings for user@cinnamon.org
+Gjs-Message: 08:41:53.559: JS LOG: [LookingGlass/info] Settings successfully installed for user@cinnamon.org
+Gjs-Message: 08:41:53.567: JS LOG: [LookingGlass/info] Loaded applet user@cinnamon.org in 34 ms
+Gjs-Message: 08:41:58.405: JS LOG: [LookingGlass/info] Reloading applet: systray@cinnamon.org/3
+Gjs-Message: 08:41:58.405: JS LOG: [LookingGlass/info] Reloading applet: xapp-status@cinnamon.org/4
+Gjs-Message: 08:41:58.406: JS LOG: [LookingGlass/info] Reloading applet: notifications@cinnamon.org/5
+Gjs-Message: 08:41:58.406: JS LOG: [LookingGlass/info] Reloading applet: printers@cinnamon.org/6
+Gjs-Message: 08:41:58.406: JS LOG: [LookingGlass/info] Reloading applet: removable-drives@cinnamon.org/7
+Gjs-Message: 08:41:58.406: JS LOG: [LookingGlass/info] Reloading applet: keyboard@cinnamon.org/8
+Gjs-Message: 08:41:58.406: JS LOG: [LookingGlass/info] Reloading applet: favorites@cinnamon.org/9
+Gjs-Message: 08:41:58.406: JS LOG: [LookingGlass/info] Reloading applet: network@cinnamon.org/10
+Gjs-Message: 08:41:58.407: JS LOG: [LookingGlass/info] Reloading applet: sound@cinnamon.org/11
+Gjs-Message: 08:41:58.407: JS LOG: [LookingGlass/info] Reloading applet: power@cinnamon.org/12
+Gjs-Message: 08:41:58.407: JS LOG: [LookingGlass/info] Reloading applet: user@cinnamon.org/16
+Gjs-Message: 08:41:58.411: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.411: JS LOG: [LookingGlass/info] Adding systray: network (16x16px)
+Gjs-Message: 08:41:58.435: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.435: JS LOG: [LookingGlass/info] Adding systray: network (16x16px)
+Gjs-Message: 08:41:58.442: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.443: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.443: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.443: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.447: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.447: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.447: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.448: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.448: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.448: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.448: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.449: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.449: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.449: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.450: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.450: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.450: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.451: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.451: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.451: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.452: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.452: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.452: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.452: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.453: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.453: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.453: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.453: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.454: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.454: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.454: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.454: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.455: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.455: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.455: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.455: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.456: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.456: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.456: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.456: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.456: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.457: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.470: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.470: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.470: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:41:58.471: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:41:58.495: JS LOG: Unknown network device type, is 14
 
-** (nemo:1649): WARNING **: 22:51:52.066: Current gtk theme is not known to have nemo support (Aritim-Dark) - checking...
+** (csd-power:1744): CRITICAL **: 08:41:58.510: abs_to_percentage: assertion 'max > min' failed
+Gjs-Message: 08:42:04.649: JS LOG: [LookingGlass/info] Reloading applet: systray@cinnamon.org/3
+Gjs-Message: 08:42:04.650: JS LOG: [LookingGlass/info] Reloading applet: xapp-status@cinnamon.org/4
+Gjs-Message: 08:42:04.651: JS LOG: [LookingGlass/info] Reloading applet: notifications@cinnamon.org/5
+Gjs-Message: 08:42:04.652: JS LOG: [LookingGlass/info] Reloading applet: printers@cinnamon.org/6
+Gjs-Message: 08:42:04.652: JS LOG: [LookingGlass/info] Reloading applet: removable-drives@cinnamon.org/7
+Gjs-Message: 08:42:04.653: JS LOG: [LookingGlass/info] Reloading applet: keyboard@cinnamon.org/8
+Gjs-Message: 08:42:04.653: JS LOG: [LookingGlass/info] Reloading applet: favorites@cinnamon.org/9
+Gjs-Message: 08:42:04.653: JS LOG: [LookingGlass/info] Reloading applet: network@cinnamon.org/10
+Gjs-Message: 08:42:04.654: JS LOG: [LookingGlass/info] Reloading applet: sound@cinnamon.org/11
+Gjs-Message: 08:42:04.654: JS LOG: [LookingGlass/info] Reloading applet: power@cinnamon.org/12
+Gjs-Message: 08:42:04.655: JS LOG: [LookingGlass/info] Reloading applet: cornerbar@cinnamon.org/14
+Gjs-Message: 08:42:04.655: JS LOG: [LookingGlass/info] Reloading applet: show-desktop@cinnamon.org/15
+Gjs-Message: 08:42:04.655: JS LOG: [LookingGlass/info] Reloading applet: user@cinnamon.org/16
+Gjs-Message: 08:42:04.660: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.660: JS LOG: [LookingGlass/info] Adding systray: network (16x16px)
+Gjs-Message: 08:42:04.688: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.688: JS LOG: [LookingGlass/info] Adding systray: network (16x16px)
+Gjs-Message: 08:42:04.697: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.698: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.698: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.698: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.703: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.703: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.703: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.704: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.704: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.704: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.705: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.705: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.705: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.705: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.706: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.706: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.706: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.707: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.707: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.707: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.707: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.708: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.708: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.708: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.708: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.709: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.709: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.709: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.710: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.710: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.710: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.711: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.711: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.711: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.712: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.712: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.712: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.712: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.713: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.713: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.713: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.713: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.725: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.725: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.725: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:42:04.726: JS LOG: [LookingGlass/info] Hiding systray: network
+Gjs-Message: 08:42:04.763: JS LOG: Unknown network device type, is 14
+
+** (csd-power:1744): CRITICAL **: 08:42:04.767: abs_to_percentage: assertion 'max > min' failed
+Gjs-Message: 08:42:04.814: JS LOG: [LookingGlass/info] Installing settings for workspace-switcher@cinnamon.org
+Gjs-Message: 08:42:04.814: JS LOG: [LookingGlass/info] Settings successfully installed for workspace-switcher@cinnamon.org
+Gjs-Message: 08:42:04.819: JS LOG: [LookingGlass/info] Loaded applet workspace-switcher@cinnamon.org in 51 ms
+Gjs-Message: 08:42:51.556: JS LOG: [LookingGlass/error] Calendar applet: bad time format string - check your string.
+Gjs-Message: 08:42:51.557: JS LOG: [LookingGlass/error] Calendar applet: bad time format string - check your string.
+Gjs-Message: 08:44:02.217: JS LOG: [LookingGlass/info] Adding systray: pamac-tray (24x24px)
+Gjs-Message: 08:44:02.218: JS LOG: [LookingGlass/info] Hiding systray: network
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3c00003
+
+** (cinnamon:1809): WARNING **: 08:45:32.208: cinnamon_app_create_icon_texture: MetaWindow 0x55a89c37ec20 provided that does not match App 0x7ff2ec003640
+Gjs-Message: 08:52:18.030: JS LOG: [LookingGlass/info] Adding systray: xfce4-clipman (1x1px)
+Window manager warning: WM_TRANSIENT_FOR window 0x3e001a8 for 0x3e001eb window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x3e00064.
+Window manager warning: WM_TRANSIENT_FOR window 0x3e001a8 for 0x3e001eb window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x3e00064.
+Window manager warning: WM_TRANSIENT_FOR window 0x3e001a8 for 0x3e001eb window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x3e00064.
+** Message: 08:55:42.237: updates_checker.vala:71: check updates
+cp: cannot stat '/var/lib/pacman/sync/*': No such file or directory
+** Message: 08:55:43.654: updates_checker.vala:101: 0 updates found
+** Message: 08:55:52.294: updates_checker.vala:71: check updates
+** Message: 08:55:53.735: updates_checker.vala:101: 0 updates found
+** Message: 08:56:40.524: updates_checker.vala:71: check updates
+** Message: 08:56:41.928: updates_checker.vala:71: check updates
+** Message: 08:56:43.353: updates_checker.vala:101: 0 updates found
+** Message: 08:56:43.353: updates_checker.vala:101: 0 updates found
+Gjs-Message: 08:58:48.930: JS LOG: [LookingGlass/info] Adding systray: onboard (16x16px)
+Gjs-Message: 08:59:17.137: JS LOG: [LookingGlass/info] Adding systray: onboard (16x16px)
+Gjs-Message: 09:06:26.856: JS LOG: [LookingGlass/info] Hiding XAppStatusIcon (we have an applet): vlc
+Window manager warning: WM_TRANSIENT_FOR window 0x3e00017 for 0x3e0001d window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x3e00006.
+Gjs-Message: 09:19:28.145: JS LOG: [LookingGlass/info] Installing settings for transparent-panels@germanfr
+Gjs-Message: 09:19:28.146: JS LOG: [LookingGlass/info] Settings successfully installed for transparent-panels@germanfr
+Gjs-Message: 09:19:28.168: JS LOG: [LookingGlass/info] Loaded extension transparent-panels@germanfr in 29 ms
+Window manager warning: WM_TRANSIENT_FOR window 0x46084f3 for 0x4608546 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x4600064.
+Window manager warning: WM_TRANSIENT_FOR window 0x4608f87 for 0x4608ff5 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x4600064.
+Window manager warning: WM_TRANSIENT_FOR window 0x4608f87 for 0x46090bf window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x4600064.
+Window manager warning: WM_TRANSIENT_FOR window 0x4608f87 for 0x4608ff5 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x4600064.
+Window manager warning: WM_TRANSIENT_FOR window 0x4608f87 for 0x4609313 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x4600064.
+** Message: 09:30:13.047: updates_checker.vala:71: check updates
+** Message: 09:30:14.471: updates_checker.vala:101: 0 updates found
