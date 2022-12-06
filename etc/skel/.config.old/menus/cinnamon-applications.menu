@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/cinnamon-applications.menu</MergeFile>
+	<Menu>
+		<Name>Preferences</Name>
+		<DirectoryDir>/home/$USER/.local/share/desktop-directories</DirectoryDir>
+	</Menu>
+	<Menu>
+		<Name>Accessories</Name>
+		<Exclude>
+			<Filename>stoken-gui.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/$USER/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>stoken-gui-small.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Menu>
+		<Name>Internet</Name>
+		<Exclude>
+			<Filename>bssh.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/$USER/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>bvnc.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>lftp.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Menu>
+		<Name>Multimedia</Name>
+		<Exclude>
+			<Filename>qv4l2.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/$USER/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>qvidcap.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>pavucontrol.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Menu>
+		<Name>Administration</Name>
+		<Exclude>
+			<Filename>avahi-discover.desktop</Filename>
+		</Exclude>
+		<AppDir>/home/$USER/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>lstopo.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>cups.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>system-config-printer.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>cinnamon-settings-users.desktop</Filename>
+		</Exclude>
+	</Menu>
+</Menu>
