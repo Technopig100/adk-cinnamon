@@ -89,7 +89,7 @@
         "tooltip": "Select an icon to show in the panel.",
         "default_icon": "cinnamon-symbolic",
         "dependency": "menu-custom",
-        "value": "/etc/xdg/adk-linux/distributor-logo-adklinux(White).svg"
+        "value": "/usr/share/pixmaps/distributor-logo-adklinux.scale(White).png"
     },
     "menu-icon-size": {
         "type": "spinbutton",
