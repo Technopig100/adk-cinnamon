@@ -1,9 +1,9 @@
-RELEASE=23.02
+RELEASE=Rolling
 CODENAME=cinnamon
 EDITION="Cinnamon"
-DESCRIPTION="ADK-Linux 23.02 Cinnamon"
+DESCRIPTION="ADK-Linux Cinnamon"
 DESKTOP=Gnome
 TOOLKIT=GTK
 RELEASE_NOTES_URL=https://github.com/Technopig100/whatsnew.git
 USER_GUIDE_URL=https://wiki.archlinux.org/title/Main_page
-GRUB_TITLE=ADK-Linux 23.02 Cinnamon
+GRUB_TITLE=ADK-Linux Cinnamon
